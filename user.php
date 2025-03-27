@@ -7,6 +7,6 @@ if (!isset($_SESSION['username']) || $_SESSION['role'] !== 'user') {
 }
 
 echo "<h1>Welcome, " . $_SESSION['username'] . "!</h1>";
-echo "<p>User Dashbee</p>";
+echo "<p>User Dashboard</p>";
 echo "<a href='logout.php'>Logout</a>";
 ?>
